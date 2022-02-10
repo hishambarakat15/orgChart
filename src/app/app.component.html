@@ -1,0 +1,17 @@
+
+<!--Card-->
+<p-card header="Organization Chart">
+
+  <!-- Org Chart-->
+  <p-organizationChart [value]="data" 
+    styleClass="company">
+    <ng-template let-node pTemplate="default">
+        <div class="node-content">
+          <img src="assets/images/{{node.imagePath}}" width="32">
+          <div>{{node.name}}</div>
+          <div class="code">{{node.code}}</div>
+      </div>
+    </ng-template>
+</p-organizationChart>
+
+</p-card>

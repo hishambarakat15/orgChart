@@ -1,0 +1,19 @@
+:host ::ng-deep .p-organizationchart .node-header {
+  background-color: #495ebb;
+  color: #ffffff;
+}
+
+:host ::ng-deep .p-organizationchart .node-content {
+  padding: 0.5em 0.7rem;
+  text-align: center;
+  border: 1px solid #495ebb;
+}
+
+:host ::ng-deep .p-organizationchart .node-content .code {
+  font-size: 12px;
+}
+
+:host ::ng-deep .p-organizationchart .node-content img {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=app.component.css.map */
